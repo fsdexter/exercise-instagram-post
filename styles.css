@@ -1,0 +1,59 @@
+body{
+    background: black;
+}
+.container { width: 400px;
+            background-color: white;
+            margin: auto;
+            height: 650px;
+            margin-top: 85px;
+
+}
+
+
+
+.header {display: flex;
+        justify-content: space-between;
+        align-items: center;
+            
+}
+.header_left {display: flex;
+            align-items: center;
+            margin-left: 13px;
+            
+    
+}
+
+.header_right {display: flex;
+                margin-right: 11px;
+
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%; 
+}
+.icons_left {
+    display: flex;
+    flex-direction: row;
+    margin-left: 13px;
+}
+
+.icono {
+    margin: 0px 5px; 
+}
+
+.bookmark{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 11px;
+}
+.text_1,.text_2 {
+    margin: 5px 10px;
+}
+.header-user_name {
+    margin-left: 10px;
+    font-size: 10px;
+}
+#HTML5,#name{
+    margin: 2px;
+}
